@@ -10,10 +10,10 @@ def check_IP(IP):
                     print 'this ip is ok'
                 continue
             else:
-                print "this ip is ilegal"
+                print "this ip is illegal"
                 break
     else:
-        print "this ip is ilegal"
+        print "this ip is illegal"
 
 if __name__=='__main__':
     IP_address = raw_input("please input the IP address:")
